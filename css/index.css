@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    color: white;
+    margin: 0;
+    
+}
+.container{
+    width: 70%;
+}
+/** start header **/
+.navbar{
+    background: linear-gradient(to right,#111 60%, #bbb );
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar .navbar-home{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.navbar span:hover{
+    
+}
+.navbar  a{
+    color: rgb(191, 209, 29) !important;
+    font-family:italic ;
+    font-size: 20px;
+    margin-right:25px;
+    
+}
+.navbar li a:hover{
+    border: 1px solid #ddd !important;
+    border-radius: 20px !important;
+    color: black !important;
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+
+.cursol img{
+    height: 100vh;
+}
+
+
+
+/** end header **/
+
+
+/** start abou us **/
+section{
+    width: 100%;
+    background-color: black;
+    padding-top: 25px ;
+    padding-bottom: 30px ;
+    background: linear-gradient(to right,#111 60%, #bbb );
+}
+
+.about-us  .hr4{
+     width: 40%;
+     height: 1px;
+     background-color: red;
+     border: 1px solid red;
+     border-radius: 50%;
+     
+}
+.about-us  .hr2{
+    width: 35%;
+    height: 3px;
+    
+    border-top: 3px dashed white;
+    
+}
+
+.about-us  .hr3{
+    width: 30%;
+    height: 3px;
+    
+    border-top: 3px dashed white;
+    
+}
+.aboutimg img{
+    width: 90%;
+    height: 60vh;
+    border-radius: 50%;
+}
+
+
+/** end about us **/
+
+
+/** satrt our product **/
+
+.product  .hr4{
+    width: 40%;
+    height: 1px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    
+}
+.product  .hr2{
+   width: 35%;
+   height: 3px;
+   
+   border-top: 3px dashed white;
+   
+}
+
+.product  .hr3{
+   width: 30%;
+   height: 3px;
+   
+   border-top: 3px dashed white;
+   
+}
+.gallary {
+   
+
+}
+.gallary .nav {
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.gallary .nav .nav-link{
+    color: white;
+    outline: red;
+}
+.gallary .nav  .active{
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.gallary .tab-content img{
+    border-radius: 20px;
+    border: 1px solid grey;
+    margin: 5px 0px;
+}
+
+
+/** end our prouduct **/
+/** start contuct us **/
+.contact-us  .hr4{
+    width: 40%;
+    height: 2px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 70%;
+}
+.contact-us  .hr2{
+   width: 35%;
+   height: 1px;
+   outline: none;
+   border-top: 3px dashed white;
+   
+}
+
+.contact-us  .hr3{
+   width: 30%;
+   height: 1px;
+   
+   border-top: 3px dashed white;
+   
+}
+.contact input{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px;
+}
+.contact button{
+    background-color: burlywood;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.contact-img img{
+    width: 100%;
+    height: 70vh;
+    
+}
+
+/** end contact us **/
+
+/** start footer **/ 
+.footer{
+    background: rgba(0, 0, 0,.9) !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer p{
+    color: rgba(221, 221, 221,.5);
+}
+.footer ul {
+    list-style: none;
+}
+.footer ul a{
+    color: rgba(221, 221, 221,.5);
+    margin-left: -40px;
+}
+hr{
+    background-color: rgba(221, 221, 221,.5);
+}
+.footer img{
+    
+    width: 25px;
+    height: 25px;
+}
+.footer .copyright{
+    display: flex;
+    justify-content: space-between;
+}
+/** end footer **/
+
+@media(max-width:500px){
+    .cursol{
+        background-size: cover;
+    }
+    .aboutimg img{
+    width: 100%;
+    }
+    .contact-img img{
+        width: 100%;
+    }
+    .footer .copyright{
+        text-align: center;
+        display: block;
+        
+    }
+    .gallary .nav {
+        margin: 10px auto;
+        width: 80%;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+}
