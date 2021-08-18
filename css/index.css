@@ -225,11 +225,16 @@ hr{
     .cursol{
         background-size: cover;
     }
+    .cursol img{
+        height: 70vh;
+    }
     .aboutimg img{
     width: 100%;
+    height: 50vh;
     }
     .contact-img img{
         width: 100%;
+        height: 50vh;
     }
     .footer .copyright{
         text-align: center;
